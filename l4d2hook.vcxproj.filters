@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="aimbot.cpp" />
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="drawing.cpp" />
+    <ClCompile Include="exploit.cpp" />
+    <ClCompile Include="interfaces.cpp" />
+    <ClCompile Include="math.cpp" />
+    <ClCompile Include="md5hash.cpp" />
+    <ClCompile Include="menu.cpp" />
+    <ClCompile Include="mouse.cpp" />
+    <ClCompile Include="netvars.cpp" />
+    <ClCompile Include="sigs.cpp" />
+    <ClCompile Include="variables.cpp" />
+    <ClCompile Include="visuals.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="aimbot.h" />
+    <ClInclude Include="baseentity.h" />
+    <ClInclude Include="bhop.h" />
+    <ClInclude Include="cmove.h" />
+    <ClInclude Include="debugoverlay.h" />
+    <ClInclude Include="drawing.h" />
+    <ClInclude Include="engineclient.h" />
+    <ClInclude Include="enginetrace.h" />
+    <ClInclude Include="exploit.h" />
+    <ClInclude Include="globalvars.h" />
+    <ClInclude Include="hooking.hpp" />
+    <ClInclude Include="hooks.h" />
+    <ClInclude Include="include.h" />
+    <ClInclude Include="interfaces.h" />
+    <ClInclude Include="materials.h" />
+    <ClInclude Include="math.h" />
+    <ClInclude Include="md5hash.h" />
+    <ClInclude Include="menu.h" />
+    <ClInclude Include="model.h" />
+    <ClInclude Include="modelsinfo.h" />
+    <ClInclude Include="mouse.h" />
+    <ClInclude Include="netvars.h" />
+    <ClInclude Include="panel.h" />
+    <ClInclude Include="panels.h" />
+    <ClInclude Include="recvprop.h" />
+    <ClInclude Include="sigs.h" />
+    <ClInclude Include="surface.h" />
+    <ClInclude Include="usercmd.h" />
+    <ClInclude Include="variables.h" />
+    <ClInclude Include="vector.h" />
+    <ClInclude Include="visuals.h" />
+    <ClInclude Include="vmatrix.h" />
+  </ItemGroup>
+</Project>
